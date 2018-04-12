@@ -2,6 +2,12 @@ require('stringr')
 require('R.matlab')
 require('mgcv')
 require('visreg')
+
+## set directories ##
+local_wkdir <- '~/Google Drive/TDSlab/SCZ_gene_imaging/'
+remote_wkdir <- '~/Desktop/BBL/data/joy/BBL/studies/pnc/'
+
+
 ##############################
 ####                      ####
 #### Schaefer Specifics   ####
